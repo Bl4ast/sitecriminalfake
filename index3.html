@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-width=1.0">
+<title>Arquivo Sombra - Caso #1024</title>
+<style>
+    body {
+        background-color: #f0f0f0;
+        background-image: url('https://www.transparenttextures.com/patterns/paper.png');
+        color: #222;
+        font-family: 'Georgia', serif;
+        margin: 0;
+        padding: 0;
+        line-height: 1.8;
+    }
+
+    .container {
+        max-width: 800px;
+        margin: 40px auto;
+        background: #fff;
+        padding: 50px 60px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        position: relative;
+        border-top: 5px solid #8b0000;
+    }
+
+    header {
+        border-bottom: 2px solid #222;
+        padding-bottom: 15px;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+    .logo {
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        font-size: 14px;
+        color: #555;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+
+    h1 {
+        font-size: 28px;
+        margin: 0 0 10px 0;
+        color: #111;
+    }
+
+    .meta-dados {
+        font-family: 'Arial', sans-serif;
+        font-size: 12px;
+        color: #777;
+        margin-bottom: 30px;
+    }
+
+    .carimbo-confidencial {
+        position: absolute;
+        top: 80px;
+        right: 40px;
+        color: rgba(139, 0, 0, 0.15);
+        font-size: 50px;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        text-transform: uppercase;
+        transform: rotate(15deg);
+        pointer-events: none;
+    }
+
+    .texto-jornal {
+        font-size: 16px;
+        text-align: justify;
+    }
+
+    .texto-jornal p {
+        margin-bottom: 20px;
+    }
+
+    /* O SEGREDO ESTÁ AQUI: Letras anômalas para formar "ELE ESTAVA LA" */
+    .anomalia {
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        color: #1a1a1a;
+    }
+
+    .box-evidencia {
+        background: #f9f9f9;
+        border-left: 4px solid #444;
+        padding: 20px;
+        margin: 40px 0;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 14px;
+    }
+
+    .box-evidencia h3 {
+        margin-top: 0;
+        font-size: 16px;
+        color: #000;
+    }
+
+    audio {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .foto-placeholder {
+        width: 100%;
+        height: 250px;
+        background-color: #ddd;
+        border: 1px solid #bbb;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #888;
+        font-family: 'Arial', sans-serif;
+        font-size: 12px;
+        margin-bottom: 20px;
+        background-image: repeating-linear-gradient(45deg, #ccc 25%, transparent 25%, transparent 75%, #ccc 75%, #ccc), repeating-linear-gradient(45deg, #ccc 25%, #ddd 25%, #ddd 75%, #ccc 75%, #ccc);
+        background-position: 0 0, 10px 10px;
+        background-size: 20px 20px;
+    }
+
+    .censura {
+        background-color: #000;
+        color: #000;
+        user-select: none;
+    }
+    
+    .censura:hover {
+        background-color: #222;
+    }
+
+</style>
+</head>
+<body>
+
+<div class="container">
+    <div class="carimbo-confidencial">Arquivado</div>
+    
+    <header>
+        <div class="logo">Projeto Arquivo Sombra</div>
+        <div class="logo">DB-Entry: 1024-C</div>
+    </header>
+
+    <h1>A Frequência Fatal: O Caso Camila Torres</h1>
+    <div class="meta-dados">Publicado por: Investigador Anônimo | Data do Incidente: 14/10/2021 | Status: <span style="color: #8b0000; font-weight: bold;">FRIO / SEM SOLUÇÃO</span></div>
+
+    <div class="texto-jornal">
+        <p>Camila Torres, 22 anos, estudante de Engenharia de Áudio, foi encontrada sem vida em seu apartamento em circunstâncias que desafiam a lógica médica e policial. A porta estava trancada por dentro com corrente. Não havia sinais de arrombamento, luta corporal ou substâncias tóxicas no local.</p>
+
+        <p>O que mais intrigou os peritos da polícia civil foi o estado do ambiente. Todos os aparelhos eletrônicos capazes de emitir som — a TV da sala, dois rádios analógicos, seu notebook e até mesmo o micro-ondas — estavam ligados e sintonizados em estática (ruído branco) no volume máximo. A perícia determinou que a causa da morte foi uma parada cardíaca fulminante, induzida por estresse extremo. Análises posteriores revelaram que ambos os tímpanos da vítima estavam rompidos, embora a altura do som no apartamento não fosse suficiente para causar tal dano físico.</p>
+
+        <p>
+            D<span class="anomalia">e</span>vido à falta de respostas, a polícia encederrou a investigação apanhando f<span class="anomalia">l</span>uidos lógicos. M<span class="anomalia">e</span>smo com a pressao da famila, a d<span class="anomalia">e</span>fesa foi f<span class="anomalia">s</span>ilenciada. Ninguém da rua no<span class="anomalia">t</span>ou <span class="anomalia">a</span> normalidade dos <span class="anomalia">v</span>izinhos, m<span class="anomalia">a</span>s re<span class="anomalia">l</span>atos anônimos dizem <span class="anomalia">a</span>lgo diferente.
+        </p>
+
+        <div class="foto-placeholder">
+            [ FOTOGRAFIA DA CENA DO CRIME REMOVIDA A PEDIDO DA FAMÍLIA ]
+        </div>
+
+        <p>No diário de Camila, encontrado sob a cama, as últimas páginas apresentavam uma caligrafia caótica. Ela repetia o número 27 incessantemente e descrevia um culto chamado <span class="censura">SLYS</span>, que supostamente operava escondido em fóruns da deep web. Em sua última anotação, Camila escreveu: *"Eu descobri o nome dele. O demônio do segredo. Chama-se British. E desde que eu o li, o zumbido não para."*</p>
+    </div>
+
+    <div class="box-evidencia">
+        <h3>EVIDÊNCIA #03 - Fita de Atendimento do SAMU (Vazada)</h3>
+        <p>Gravação captada pelo telefone de Camila às 03h14 da manhã. A vítima não fala com a atendente, mas deixa o telefone fora do gancho. Apenas o som do ambiente é captado. Peritos de som relataram um "padrão anômalo" na interferência da gravação que não conseguiram decodificar.</p>
+        
+        <audio controls controlsList="nodownload">
+            <source src="URL_DO_SEU_AUDIO_COM_O_ESPECTROGRAMA_AQUI.mp3" type="audio/mpeg">
+            Seu navegador não suporta o elemento de áudio.
+        </audio>
+        
+        <p style="font-size: 11px; margin-top: 10px; color: #888;">Nota do arquivista: Baixe a fita e analise as ondas. Há algo visual nessa estática.</p>
+    </div>
+
+    <div class="texto-jornal">
+        <p>O paradeiro do investigador original deste caso é desconhecido. Os fóruns mencionados por Camila foram derrubados misteriosamente. O que quer que ela tenha ouvido, ou <span style="font-style: italic;">quem</span> quer que ela tenha ouvido, garantiu que seu segredo fosse levado para o túmulo.</p>
+    </div>
+
+</div>
+
+</body>
+</html>
